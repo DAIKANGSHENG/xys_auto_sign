@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "FormData": "^0.10.1",
+    "blueimp-md5": "^2.19.0",
+    "form-data": "^4.0.1",
+    "thorui-uni": "^3.0.0",
+    "uview-ui": "^2.0.38"
+  }
+}

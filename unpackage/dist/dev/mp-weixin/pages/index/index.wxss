@@ -1,0 +1,209 @@
+
+.content {
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		box-sizing: border-box;
+		position: relative;
+}
+.title{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-top: 10px;
+}
+.title>.header{
+		width: 60%;
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+}
+.title>.header>view{
+		display: inline;
+}
+.header>.sx{
+		font-size: 20px;
+}
+.header>.zy{
+		font-size: 14px;
+		color: #999999;
+}
+.signdetail{
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		padding: 10px;
+		box-sizing: border-box;
+}
+.signdetail>view{
+		width: 47%;
+		background-color: #f6f6f6;
+		border-radius: 4px;
+		padding: 7px 5px;
+		box-sizing:border-box;
+}
+.signstart>.signstatus{
+		display: flex;
+		align-items: center;
+		padding: 3px 0;
+}
+.signstart>.signtitle{
+    display: flex;
+    align-items: center;
+}
+.signstart>.signtitle>image{
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
+.signstart>.signstatus>.status{
+		width: 28px;
+		height: 15px;
+		line-height: 17px;
+		text-align: center;
+		border: 1px solid #4990e2;
+		border-radius: 3px;
+		font-size: 10px;
+		color: #4990e2;
+}
+.signstart>.signstatus>.signtime{
+		font-size: 14px;
+		color: #999999;
+		padding: 07px;
+}
+.signdetaildata{
+		border-top: 12px solid #f4f5f4;
+		display: flex;
+}
+.signdetaildata>.itemdata{
+		width: 25%;
+		padding: 10px;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+}
+.signdetaildata>.itemdata>.datatitle{
+		display: flex;
+		align-items: center;
+		font-size: 10px;
+		padding-bottom: 7px;
+}
+.signdetaildata>.itemdata>.datanum{
+		font-size: 20px;
+}
+.dataradio{
+		width: 5px;
+		height: 5px;
+		background-color: #4082fa;
+		margin-right: 4px;
+		border-radius: 50%;
+}
+.signday{
+		height: 45px;
+		line-height: 45px;
+		background-color: #fafafa;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0 22px;
+}
+.signday>view{
+		display: flex;
+		align-items: center; 
+		font-size: 16px;
+		color: #7d7874;
+}
+.sign_location{
+		box-sizing: border-box;
+}
+.sign_location>._div{
+		display: flex;
+		align-items: center;
+		height: 30px;
+		line-height: 30px;
+		padding:5px;
+}
+.sign_location>._div>view{
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+}
+.sign_location>._div>image{
+		width: 20px;
+		height: 20px;
+		margin-right: 5px;
+}
+.noright{
+		width: 28px;
+		height: 15px;
+		line-height: 17px;
+		text-align: center;
+		border: 1px solid #ff8803;
+		border-radius: 3px;
+		font-size: 10px;
+		color: #ff8803;
+}
+.rank{
+    padding: 10px;
+    box-sizing: border-box;
+}
+.rank>.rankitem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px 0px #f6f6f6;
+}
+.rank>.rankitem>.stuname{
+    display: flex;
+    align-items: center;
+}
+.rank>.rankitem>.stuname>.rankimg{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.rank>.rankitem>.stuname>.rankavatar{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.rank>.rankitem>.stuname>.rankname{
+    font-size: 16px;
+}
+.ranktime{
+    font-size: 14px;
+}
+.paiming{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.listshow{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding:10px;
+    box-sizing: border-box;
+}
+.listshow>view{
+    width: 98%;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: #e9eae7;
+    border-radius: 50px;
+    font-size: 13px;
+    color: #6b9ee1;
+}
+

@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/config/config"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "scrollIndicator": "none"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#00aa00",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "控制台",
+        "iconPath": "static/control.png",
+        "selectedIconPath": "static/control_active.png"
+      },
+      {
+        "pagePath": "pages/config/config",
+        "text": "配置",
+        "iconPath": "static/config.png",
+        "selectedIconPath": "static/config_active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
